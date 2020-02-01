@@ -13,9 +13,9 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class JpaMain {
+public class JpaTest {
 
-    private static Logger logger = LoggerFactory.getLogger(JpaMain.class);
+    private static Logger logger = LoggerFactory.getLogger(JpaTest.class);
 
     @Test
     public void test() {
@@ -38,7 +38,7 @@ public class JpaMain {
         entityManagerFactory.close();
     }
 
-    public static void logic(EntityManager em) {
+    public void logic(EntityManager em) {
 
         String id = "id1";
         Member member = new Member();
