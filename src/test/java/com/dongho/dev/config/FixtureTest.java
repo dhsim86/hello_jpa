@@ -27,7 +27,6 @@ public class FixtureTest {
 
         then: {
             assertThat(fixtureConfig.getTest()).isEqualTo("test");
-            assertThat(fixtureConfig.getMemberList()).isNotEmpty().hasSize(2);
         }
     }
 
