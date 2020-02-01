@@ -1,0 +1,7 @@
+fixtures:
+  test: test
+  member-list:
+    - id: 1
+      name: dongho
+    - id: 2
+      name: dongho2
