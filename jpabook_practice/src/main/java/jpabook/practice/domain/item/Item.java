@@ -1,4 +1,4 @@
-package jpabook.ch05.model.item;
+package jpabook.practice.domain.item;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -23,3 +23,4 @@ public class Item {
     private int stockQuantity;
 
 }
+

@@ -1,4 +1,4 @@
-package jpabook.ch05.model.order;
+package jpabook.practice.domain.order;
 
 import lombok.Getter;
 import lombok.Setter;

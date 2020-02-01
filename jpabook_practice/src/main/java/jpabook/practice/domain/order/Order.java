@@ -1,6 +1,6 @@
-package jpabook.ch05.model.order;
+package jpabook.practice.domain.order;
 
-import jpabook.ch05.model.order.code.OrderStatus;
+import jpabook.practice.domain.order.code.OrderStatus;
 import lombok.Getter;
 import lombok.Setter;
 
